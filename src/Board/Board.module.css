@@ -1,0 +1,6 @@
+.BoardRow:after {
+    clear: both;
+    content: "";
+    display: table;
+    margin-top: 500px;
+}

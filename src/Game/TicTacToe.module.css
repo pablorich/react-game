@@ -1,0 +1,52 @@
+.Game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.GameInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 75%;
+}
+
+.ActionButtons Button {
+    display: block;
+    width: 50px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #aa6817;
+    outline: none;
+    margin: 0 5px;
+}
+
+.ActionButtons Button:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7e7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.ActionButtons Button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.GameBoard {}
+
+.ActionButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.Status {
+    margin-bottom: 10px;
+}
